@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en"></html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CHATBOT-for catering the users regarding water quality
+    </title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    
+</head>
+
+<main>
+    <section class="sight">
+        <div class="sight__bg__image__container">
+            <img src="image3.png" alt="Background image" class="sight__bg">
+        </div>
+        <div class="sight__bg__overlay"></div>
+        
+    </section>
+</main>
+
+
+
+<body>
+    <nav class="navbar">
+        <div class="navbar_Web">
+              <img src="2040946.png" alt="logo" class="Web_logo">
+         </div>
+         <div class="text">
+            <p>Hello!!! Welcome To CHATBOX</p>
+         </div>
+         
+        
+         </nav>
+         <a-assets>
+            <a-asset-item id="model" src="https://drive.google.com/file/d/1xBJdL7RS-XIqSUg7vdQsibad07m1nyl8/view?usp=drive_link"></a-asset-item>
+            <a-asset-item id="animationScript" src="https://drive.google.com/file/d/1yLYSdSazajc5JMHjYbCUVt4e6ddaACoR/view?usp=drive_link"></a-asset-item>
+          </a-assets>
+          
+          <a-entity gltf-model="#model" animation-mixer="#animationScript"></a-entity>
+        
+          
+          <script src="https://cdn.botpress.cloud/webchat/v1/inject.js"></script>
+          <script>
+            window.botpressWebChat.init({
+                "composerPlaceholder": "Chat with Exotic Flamingo",
+                "botConversationDescription": "This bot is used to cater the users regarding cleaning of natural water bodies.",
+                "botId": "61a1ce0e-cee0-4ceb-8f0a-9576b5a7f6d8",
+                "hostUrl": "https://cdn.botpress.cloud/webchat/v1",
+                "messagingUrl": "https://messaging.botpress.cloud",
+                "clientId": "61a1ce0e-cee0-4ceb-8f0a-9576b5a7f6d8",
+                "lazySocket": true,
+                "botName": "Exotic Flamingo",
+                "avatarUrl": "https://upload.wikimedia.org/wikipedia/commons/3/3d/Fallout_Bobblehead_gif.gif",
+                "stylesheet": "https://webchat-styler-css.botpress.app/prod/3f3e8882-7564-4d09-b8fa-a785e95ead4a/v39727/style.css",
+                "frontendVersion": "v1",
+                "useSessionStorage": true,
+                "showBotInfoPage": true,
+                "enableConversationDeletion": true,
+                "showPoweredBy": true,
+                "theme": "prism",
+                "themeColor": "#2563eb"
+            });
+          </script>
+          
+          
+          
+
+
+
+         
+            
+        
+           
+           
+           
+            
+
+</body>
+    
+    
+
+</html>
